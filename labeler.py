@@ -1,14 +1,12 @@
 import shutil
 import cv2
 import os
+
 directory = '/home/anopsy/data/frames'
-#'C:\Users\Martha\Documents\train_data'
 directoryGood = '/home/anopsy/data/frames/goodwaves'
-#'C:\Users\Martha\Documents\train_data\good_waves'
 directoryBad = '/home/anopsy/data/frames/badwaves'
-#'C:\Users\Martha\Documents\train_data\bad_waves'
 removed = '/home/anopsy/data/removed'
-#'C:\Users\Martha\Documents\train_data\removed'
+
 countgood=0
 countbad=0
 
